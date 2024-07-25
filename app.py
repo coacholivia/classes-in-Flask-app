@@ -9,10 +9,10 @@ user_dictionary = {}
 # TODO: Fix age
 #TODO: Add lname to the UserProfile class. Include it in the constructor!
 class UserProfile:
-    def __init__(self, fname, email, age):
+    def __init__(self, fname, email, phone):
         self.fname = fname
         self.email = email
-        self.age = age
+        self.phone = phone
 
     def __str__(self):
         return "I am " + self.fname
