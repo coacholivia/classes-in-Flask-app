@@ -16,10 +16,7 @@ class UserProfile:
 
     def __str__(self):
         return "I am " + self.fname
-
-class Student:
-    def __init__(self):
-        
+    
 
 @app.route("/", methods=["GET", "POST"])
 def signup():
